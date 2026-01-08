@@ -1,0 +1,1 @@
+{"average_before_softmax": true, "balance_probabilities": false, "categorical_features_indices": null, "device": "cuda", "differentiable_input": false, "fit_mode": "fit_preprocessors", "ignore_pretraining_limits": false, "inference_config": {"FINGERPRINT_FEATURE": true, "OUTLIER_REMOVAL_STD": 12.0, "POLYNOMIAL_FEATURES": "no"}}

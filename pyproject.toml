@@ -1,0 +1,35 @@
+[project]
+name = "tabular-ai_2_5"
+version = "0.1.0"
+description = "For Benchmarking TabPFN"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"      # <-- stop uv from “helpfully” solving for 3.13
+dependencies = [
+    "adjusttext>=1.3.0",
+    "catboost>=1.2.7",
+    "dbfread>=2.0.7",
+    "fastcluster>=1.3.0",
+    "geoparse>=2.0.4",
+    "hyperopt>=0.2.7",
+    "ipykernel>=6.29.5",
+    "kditransform>=0.2.0",
+    "lightgbm>=4.5.0",
+    "llvmlite>=0.44.0",
+    "matplotlib>=3.10.0",
+    "numba>=0.61.0",
+    "numpy<=2.1",
+    "openpyxl>=3.1.5",
+    "pandasql>=0.7.3",
+    "pynvml>=13.0.1",
+    "seaborn>=0.12.2",
+    "setuptools>=75.8.0",
+    "shap>=0.46.0",
+    "tabicl>=0.0.6",
+    "tabpfn>=6.0.5",                  # <-- new
+    "tabpfn-extensions>=0.2.1",       # <-- new
+    "vitaldb>=1.4.11",
+    "wfdb>=4.2.0",
+    "xgboost>=2.1.4",
+]
+
+[tool.uv.sources]
